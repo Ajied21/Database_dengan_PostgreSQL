@@ -1,4 +1,4 @@
-# Database Management Hotel dengan PostgreSQL
+# Database Management Hotel dengan PostgreSQL @Dibimbing.id
 
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk memasukkan data dummy ke dalam database PostgreSQL yang akan digunakan untuk keperluan pengujian, simulasi, dan pengembangan aplikasi. Dengan menggunakan library Python seperti Faker dan psycopg2, data acak akan dihasilkan dan disimpan dalam berbagai tabel di database PostgreSQL.
