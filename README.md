@@ -48,4 +48,4 @@ Data berhasil masuk ke database
 ![Architecture Overview](./Images/Data_dummy.jpg)
 
 5. ERD Database Hotel
-![Architecture Overview](./Images/ERD_Hotel.jpg)
+![Architecture Overview](./Images/ERD_Hotel.png)
