@@ -29,21 +29,21 @@ Untuk memastikan bahwa Anda dapat terhubung ke database PostgreSQL, Anda dapat m
 3. Memasukkan Data Dummy ke Database
 Skrip Python yang disiapkan dalam proyek ini menggunakan Faker untuk menghasilkan data acak dan psycopg2 untuk berinteraksi dengan database PostgreSQL. Data dummy ini mencakup berbagai tabel seperti:
 
--customer_information: Menyimpan informasi pelanggan seperti nama dan alamat.
+- customer_information: Menyimpan informasi pelanggan seperti nama dan alamat.
 
--payments: Menyimpan informasi pembayaran terkait pelanggan.
+- payments: Menyimpan informasi pembayaran terkait pelanggan.
 
--employees: Menyimpan data karyawan termasuk departemen dan kontak.
+- employees: Menyimpan data karyawan termasuk departemen dan kontak.
 
--room_class: Menyimpan informasi tentang kelas kamar.
+- room_class: Menyimpan informasi tentang kelas kamar.
 
--room_information: Menyimpan data kamar yang tersedia di hotel.
+- room_information: Menyimpan data kamar yang tersedia di hotel.
 
--reservation: Menyimpan data reservasi kamar oleh pelanggan.
+- reservation: Menyimpan data reservasi kamar oleh pelanggan.
 
--transactions: Mencatat transaksi yang terjadi dalam hotel, seperti pemesanan kamar atau layanan tambahan.
+- transactions: Mencatat transaksi yang terjadi dalam hotel, seperti pemesanan kamar atau layanan tambahan.
 
--reports: Menyimpan laporan terkait transaksi.
+- reports: Menyimpan laporan terkait transaksi.
 
 Anda dapat menjalankan skrip ini untuk memasukkan sejumlah besar data dummy ke dalam tabel-tabel tersebut.
 
