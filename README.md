@@ -51,8 +51,10 @@ Anda dapat menjalankan skrip ini untuk memasukkan sejumlah besar data dummy ke d
 Untuk menjalankan skrip ini:
 
 Pastikan database PostgreSQL sudah berjalan.
-Jalankan skrip verifikasi untuk memastikan koneksi ke database berhasil.
-Jalankan skrip utama untuk memasukkan data dummy ke dalam tabel yang relevan.
+
+- Jalankan skrip verifikasi untuk memastikan koneksi ke database berhasil.
+
+- Jalankan skrip utama untuk memasukkan data dummy ke dalam tabel yang relevan.
 
 Data berhasil masuk ke database
 ![Architecture Overview](./Images/Data_dummy.jpg)
