@@ -6,9 +6,9 @@ Proyek ini bertujuan untuk memasukkan data dummy ke dalam database PostgreSQL ya
 ## Prasyarat
 Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak berikut:
 
-Python 3.x - Digunakan untuk menjalankan skrip yang menghasilkan data dummy.
-PostgreSQL - Database yang digunakan untuk menyimpan data dummy.
-Docker dan Docker Compose - Digunakan untuk menjalankan PostgreSQL dan pgAdmin sebagai layanan, memudahkan pengaturan lingkungan database.
+-Python : Digunakan untuk menjalankan skrip yang menghasilkan data dummy.
+-PostgreSQL : Database yang digunakan untuk menyimpan data dummy.
+-Docker Compose : Digunakan untuk menjalankan PostgreSQL dan pgAdmin sebagai layanan, memudahkan pengaturan lingkungan database.
 
 ## Langkah-langkah:
 
@@ -27,14 +27,15 @@ Untuk memastikan bahwa Anda dapat terhubung ke database PostgreSQL, Anda dapat m
 3. Memasukkan Data Dummy ke Database
 Skrip Python yang disiapkan dalam proyek ini menggunakan Faker untuk menghasilkan data acak dan psycopg2 untuk berinteraksi dengan database PostgreSQL. Data dummy ini mencakup berbagai tabel seperti:
 
-customer_information: Menyimpan informasi pelanggan seperti nama dan alamat.
-payments: Menyimpan informasi pembayaran terkait pelanggan.
-employees: Menyimpan data karyawan termasuk departemen dan kontak.
-room_class: Menyimpan informasi tentang kelas kamar.
-room_information: Menyimpan data kamar yang tersedia di hotel.
-reservation: Menyimpan data reservasi kamar oleh pelanggan.
-transactions: Mencatat transaksi yang terjadi dalam hotel, seperti pemesanan kamar atau layanan tambahan.
-reports: Menyimpan laporan terkait transaksi.
+-customer_information: Menyimpan informasi pelanggan seperti nama dan alamat.
+-payments: Menyimpan informasi pembayaran terkait pelanggan.
+-employees: Menyimpan data karyawan termasuk departemen dan kontak.
+-room_class: Menyimpan informasi tentang kelas kamar.
+-room_information: Menyimpan data kamar yang tersedia di hotel.
+-reservation: Menyimpan data reservasi kamar oleh pelanggan.
+-transactions: Mencatat transaksi yang terjadi dalam hotel, seperti pemesanan kamar atau layanan tambahan.
+-reports: Menyimpan laporan terkait transaksi.
+
 Anda dapat menjalankan skrip ini untuk memasukkan sejumlah besar data dummy ke dalam tabel-tabel tersebut.
 
 4. Menjalankan Skrip
